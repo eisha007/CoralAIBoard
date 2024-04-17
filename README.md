@@ -25,3 +25,6 @@ Board Powering:
 - Connect the left USBC port to power
 - Connect the right USBC port to your device
 - To power on, press firmly on the power button, which is to the left of the left most USBC port
+  
+  <img width="305" alt="Screen Shot 2024-04-17 at 6 53 07 PM" src="https://github.com/eisha007/CoralAIBoard/assets/49347262/2d91851b-56b0-44f1-a3c1-e7a6144ca42c">
+
