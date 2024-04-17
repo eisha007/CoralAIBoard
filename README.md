@@ -7,7 +7,7 @@ Beginning Requirements:
 - USBC-A cable (device connection)
 - WiFi connection
 
-Setup:
+Dev Tool Installation:
 - From terminal on device
   - python3 -m pip install --user mendel-development-tool
     NOTE: You might see the below warning get generated. 
@@ -16,3 +16,12 @@ Setup:
     Run the following commands - in order - to get rid of this issue.
     - echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
     - source ~/.bash_profile
+
+  - Following this, if you rerun 'python3 -m pip install --user mendel-development-tool', you should see all requirements marked as "satisfied" - ensuring that your tool installed correctly
+ 
+
+Board Powering:
+- Orient the board such that the pin headers are at the top, and the USBC ports are at the bottom
+- Connect the left USBC port to power
+- Connect the right USBC port to your device
+- To power on, press firmly on the power button, which is to the left of the left most USBC port
